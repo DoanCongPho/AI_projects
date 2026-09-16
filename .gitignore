@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Obsidian: chỉ là trạng thái UI, thay đổi liên tục gây nhiễu diff
+docs/.obsidian/workspace.json
+docs/.obsidian/graph.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Bí mật: không bao giờ commit token Kaggle
+kaggle.json
+.env
+
+# Dữ liệu lớn: để trên Kaggle, không đưa vào repo
+data/
+*.parquet
